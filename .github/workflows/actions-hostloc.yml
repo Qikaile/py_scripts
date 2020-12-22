@@ -53,4 +53,3 @@ jobs:
         HOSTLOC_USERNAME: ${{ secrets.HOSTLOC_USERNAME }}
         HOSTLOC_PASSWORD: ${{ secrets.HOSTLOC_PASSWORD }}
       run: python scripts/hostloc/hostloc_get_points.py
-    
