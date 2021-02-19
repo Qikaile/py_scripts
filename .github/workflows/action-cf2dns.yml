@@ -30,4 +30,3 @@ jobs:
           DNSPOD_LOGIN_ID: ${{ secrets.DNSPOD_LOGIN_ID }}
           DNSPOD_LOGIN_TOKEN: ${{ secrets.DNSPOD_LOGIN_TOKEN }}
         run: python scripts/cf2dns/cf2dns.py
-
